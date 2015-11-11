@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+  <info organisation="com.playground" module="test-ivy-publish" revision="0.0.6" status="integration" publication="20151109191748" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+  <configurations>
+    <conf name="blah" visibility="public"/>
+    <conf name="default" visibility="public" extends="runtime"/>
+    <conf name="runtime" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="test-ivy-publish" type="jar" ext="jar" conf="blah"/> 
+  </publications>
+  <dependencies/>
+</ivy-module>
