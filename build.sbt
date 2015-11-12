@@ -1,4 +1,4 @@
-name := "sbt-conf-runtime-issue"
+name := "sbt-runtime-conf-issue"
 
 version := "1.0"
 
