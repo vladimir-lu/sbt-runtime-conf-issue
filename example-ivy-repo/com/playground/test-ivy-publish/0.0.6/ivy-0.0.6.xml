@@ -3,7 +3,6 @@
   <info organisation="com.playground" module="test-ivy-publish" revision="0.0.6" status="integration" publication="20151109191748" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
   <configurations>
     <conf name="blah" visibility="public"/>
-    <conf name="default" visibility="public" extends="runtime"/>
     <conf name="runtime" visibility="public"/>
   </configurations>
   <publications>
